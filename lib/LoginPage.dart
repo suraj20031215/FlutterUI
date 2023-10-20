@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget{
               width:double.infinity,
 
               child: Image.asset('assets/images/vector.png')),
- Text('Log In Here',style: TextStyle(fontSize: 29,fontWeight:FontWeight.w600,color: Colors.deepPurple[300],
+ Text('Log In Here',style: TextStyle(fontSize: 29,fontWeight:FontWeight.w400,color: Colors.deepPurple[300],
           )
           ),
 

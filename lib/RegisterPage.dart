@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'LoginPage.dart';
+import 'HomePage.dart';
+
 
 class RegisterPage extends StatelessWidget{
   @override
@@ -18,7 +19,7 @@ class RegisterPage extends StatelessWidget{
             children: [
              Image.asset('assets/images/vector2.png',width:double.infinity),
 
-              Text('Register Here',style: TextStyle(fontSize: 29,fontWeight:FontWeight.w600,color: Colors.deepPurple[300],
+              Text('Register Here',style: TextStyle(fontSize: 29,fontWeight:FontWeight.w400,color: Colors.deepPurple[300],
               )
               ),
 
@@ -122,7 +123,7 @@ class RegisterPage extends StatelessWidget{
                       Navigator.push(
                           context,
                           MaterialPageRoute
-                            (builder: (context)=>  RegisterPage(),
+                            (builder: (context)=>  HomePage(),
                           )
                       );
                     } , child:Text('Sign Up',style:TextStyle(color: Colors.white),)),
